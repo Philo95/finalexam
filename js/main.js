@@ -7,15 +7,20 @@ const myImmutableArray = ["Jared", "Francis", "Amrit", "Sarah", "Gurleen", "Joha
 
 
 // Step 2: Add the 3 people's names to the array
-
+const myArray = ["Jared", "Francis", "Amrit"];
 
 // Step 4: Remove the first array item from the array
-
+myArray.shift();
 
 // Step 5 Remove the second array item from the array
 
-
+myArray.shift(1);
 // Step 6: Using array filter, iterate over the array items and remove all items beginning with the letter "J". Store the result in a new, block scoped, mutable variable
 
 
 // Step 7: Create an event listener that fires a callback function when the call to action button in the header is clicked. It should alert "Call me now at 555-555-55555";
+const image = document.querySelector('button');
+image.addEventListener("click", function(){ 
+    console.log("Call now at 1-555-555-5555");
+    alert("Call now at 1-555-555-5555")
+});
